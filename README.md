@@ -1,6 +1,10 @@
 # NASA Image Viewer
 
 This is a simple Python application that uses the NASA API to fetch and display an image of the day.
+<p align="center">
+<img height=200 align="center" src="1.png"/>
+<img height=200 align="center" src="2.png"/>
+</p>
 
 ## Requirements
 
