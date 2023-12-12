@@ -8,7 +8,7 @@ from get_image import get_image
 title, explanation, url = get_image()
 
 # Use streamlit to create a title on the web page with the title from get_image
-st.title(title)
+st.markdown("<h1 style='text-align: center'>{}</h1>".format(title), unsafe_allow_html=True)
 
 # Use streamlit to display an image on the web page with the url from get_image
 st.image(url)
