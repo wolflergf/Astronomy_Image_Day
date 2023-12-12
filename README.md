@@ -33,7 +33,7 @@ API_KEY=your_nasa_api_key
 To run the application, use the following command:
 
 ```bash
-streamlit run all.py
+streamlit run main.py
 ```
 
 The application will start and be accessible at `http://localhost:8501`.
